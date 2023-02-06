@@ -1,0 +1,10 @@
+# 模型输入参数
+input_path = './data/train_in.txt'
+output_path = './data/train_out.txt'
+num_layers = 3  # LSTM层数
+hidden_dim = 512    # LSTM隐藏层大小
+epochs = 500     # 迭代次数
+batch_size = 512    # 批处理大小
+embedding_dim = 15  # embedding向量大小
+lr = 0.02   # 模型学习率
+device = 'cuda:0'   # 训练设备
